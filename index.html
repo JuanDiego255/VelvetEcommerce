@@ -1,0 +1,363 @@
+<!--
+=========================================================
+* Material Dashboard 2 - v3.0.4
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/material-dashboard
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://www.creative-tim.com/license)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/logo-velvet.png">
+  <link rel="icon" type="image/png" href="./assets/img/logo-velvet.png">
+
+  <title>
+    Velvet Boutique
+  </title>
+
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+
+  <!-- Nucleo Icons -->
+  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <!-- CSS Files -->
+  <link id="pagestyle" href="./assets/css/material-dashboard.css?v=3.0.4" rel="stylesheet" />
+  <link href="./assets/css/owl.carousel.min.css" rel="stylesheet">
+  <link href="./assets/css/owl.theme.default.min.css" rel="stylesheet">
+</head>
+
+<body class="g-sidenav-show  bg-gray-200">
+
+  <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg">
+    <div class="container-fluid py-4">
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky"
+        id="navbarBlur" data-scroll="true">
+        <div class="container-fluid py-1 px-3">
+          <nav aria-label="breadcrumb">
+            <a href="{{ url('/') }}">
+              <h4 class="font-weight-bolder mb-0">Velvet Boutique</h4>
+            </a>
+
+          </nav>
+
+          <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+            <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+
+            </div>
+            <ul class="navbar-nav  justify-content-end">
+
+
+              <li class="nav-item px-3">
+                <a href="category.html" class="nav-link text-body p-0">
+                  <i class="material-icons text-info position-relative ms-auto text-lg me-1 my-auto">category</i>
+                  Categorías
+                </a>
+
+              </li>
+              <li class="nav-item px-3">
+                <a href="cart.html" class="nav-link text-body p-0">
+                  <i class="material-icons text-info position-relative ms-auto text-lg me-1 my-auto">shopping_cart</i>
+                  My Cart
+                  <span
+                    class="badge text-secondary badge-primary border border-secondary badge-circle badge-sm  border-2">2</span>
+
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner mb-4">
+
+          <div class="carousel-item">
+            <div class="page-header min-vh-75 m-3 border-radius-xl"
+              style="background-image: url('assets/img/carousel2.png');">
+              <span class="mask bg-gradient-dark"></span>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 my-auto">
+                    <h4 class="text-white mb-0 fadeIn1 fadeInBottom">Para todas las chicas.</h4>
+                    <h1 class="text-white fadeIn2 fadeInBottom">Gran Variedad De Estilos</h1>
+                    <p class="lead text-white opacity-8 fadeIn3 fadeInBottom">No dudes en contactarnos.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="page-header min-vh-75 m-3 border-radius-xl"
+              style="background-image: url('assets/img/carousel1.png');">
+              <span class="mask bg-gradient-dark"></span>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 my-auto">
+                    <h4 class="text-white mb-0 fadeIn1 fadeInBottom">Somos Un Nuevo Emprendimiento.</h4>
+                    <h1 class="text-white fadeIn2 fadeInBottom">Velvet Boutique</h1>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="min-vh-75 position-absolute w-100 top-0">
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon position-absolute bottom-50" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon position-absolute bottom-50" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="owl-carousel featured-carousel owl-theme mt-3">
+
+              <div class="item">
+                <div class="card" data-animation="true">
+
+                  <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <a class="d-block blur-shadow-image">
+                      <img src="assets/img/slider1.png" alt="img-blur-shadow"
+                        class="img-fluid shadow border-radius-lg w-100" style="height:300px;">
+                    </a>
+                    <div class="colored-shadow"
+                      style="background-image: url(&quot;https://demos.creative-tim.com/test/material-dashboard-pro/assets/img/products/product-1-min.jpg&quot;);">
+                    </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <div class="d-flex mt-n6 mx-auto">
+
+                    </div>
+                    <h5 class="font-weight-normal mt-3">
+                      <a href="">Blusa</a>
+                    </h5>
+                    <p class="mb-0">
+                      Tono Naranja, super económica, para combinar con un hermoso día soleado, o irnos para la playa.
+                    </p>
+                  </div>
+                  <hr class="dark horizontal my-0">
+                  <div class="card-footer d-flex">
+                    <p class="font-weight-normal my-auto">Price: ₡16,990
+                    </p>
+                    <i class="material-icons position-relative ms-auto text-lg me-1 my-auto">electric_bolt</i>
+
+                    <i class="material-icons position-relative ms-auto text-lg me-1 my-auto">inventory</i>
+                    <p class="text-sm my-auto"> Stock: 5</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card" data-animation="true">
+
+                  <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <a class="d-block blur-shadow-image">
+                      <img src="assets/img/slider2.png" alt="img-blur-shadow"
+                        class="img-fluid shadow border-radius-lg w-100" style="height:300px;">
+                    </a>
+                    <div class="colored-shadow"
+                      style="background-image: url(&quot;https://demos.creative-tim.com/test/material-dashboard-pro/assets/img/products/product-1-min.jpg&quot;);">
+                    </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <div class="d-flex mt-n6 mx-auto">
+
+                    </div>
+                    <h5 class="font-weight-normal mt-3">
+                      <a href="">Blusa Blanca</a>
+                    </h5>
+                    <p class="mb-0">
+                      Blusa De Tirantes Blanca
+                    </p>
+                  </div>
+                  <hr class="dark horizontal my-0">
+                  <div class="card-footer d-flex">
+                    <p class="font-weight-normal my-auto">Price: ₡12,990
+                    </p>
+                    <i class="material-icons position-relative ms-auto text-lg me-1 my-auto">electric_bolt</i>
+
+                    <i class="material-icons position-relative ms-auto text-lg me-1 my-auto">inventory</i>
+                    <p class="text-sm my-auto"> Stock: 10</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card" data-animation="true">
+
+                  <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <a class="d-block blur-shadow-image">
+                      <img src="assets/img/slider5.png" alt="img-blur-shadow"
+                        class="img-fluid shadow border-radius-lg w-100" style="height:300px;">
+                    </a>
+                    <div class="colored-shadow"
+                      style="background-image: url(&quot;https://demos.creative-tim.com/test/material-dashboard-pro/assets/img/products/product-1-min.jpg&quot;);">
+                    </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <div class="d-flex mt-n6 mx-auto">
+
+                    </div>
+                    <h5 class="font-weight-normal mt-3">
+                      <a href="">Pantalón Roto Mezclilla</a>
+                    </h5>
+                    <p class="mb-0">
+                      Pantalón roto en las rodillas
+                    </p>
+                  </div>
+                  <hr class="dark horizontal my-0">
+                  <div class="card-footer d-flex">
+                    <p class="font-weight-normal my-auto">Price: ₡17,990
+                    </p>
+                    <i class="material-icons position-relative ms-auto text-lg me-1 my-auto">electric_bolt</i>
+
+                    <i class="material-icons position-relative ms-auto text-lg me-1 my-auto">inventory</i>
+                    <p class="text-sm my-auto"> Stock: 5</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card" data-animation="true">
+
+                  <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <a class="d-block blur-shadow-image">
+                      <img src="assets/img/slider4.png" alt="img-blur-shadow"
+                        class="img-fluid shadow border-radius-lg w-100" style="height:300px;">
+                    </a>
+                    <div class="colored-shadow"
+                      style="background-image: url(&quot;https://demos.creative-tim.com/test/material-dashboard-pro/assets/img/products/product-1-min.jpg&quot;);">
+                    </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <div class="d-flex mt-n6 mx-auto">
+
+                    </div>
+                    <h5 class="font-weight-normal mt-3">
+                      <a href="">Short Mezclilla</a>
+                    </h5>
+                    <p class="mb-0">
+                      Short Corto Mezclilla
+                    </p>
+                  </div>
+                  <hr class="dark horizontal my-0">
+                  <div class="card-footer d-flex">
+                    <p class="font-weight-normal my-auto">Price: ₡12,990
+                    </p>
+                    <i class="material-icons position-relative ms-auto text-lg me-1 my-auto">electric_bolt</i>
+
+                    <i class="material-icons position-relative ms-auto text-lg me-1 my-auto">inventory</i>
+                    <p class="text-sm my-auto"> Stock: 7</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card" data-animation="true">
+
+                  <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <a class="d-block blur-shadow-image">
+                      <img src="assets/img/slider5.png" alt="img-blur-shadow"
+                        class="img-fluid shadow border-radius-lg w-100" style="height:300px;">
+                    </a>
+                    <div class="colored-shadow"
+                      style="background-image: url(&quot;https://demos.creative-tim.com/test/material-dashboard-pro/assets/img/products/product-1-min.jpg&quot;);">
+                    </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <div class="d-flex mt-n6 mx-auto">
+
+                    </div>
+                    <h5 class="font-weight-normal mt-3">
+                      <a href="">Blusa Blanca</a>
+                    </h5>
+                    <p class="mb-0">
+                      Blusa De Tirantes Blanca
+                    </p>
+                  </div>
+                  <hr class="dark horizontal my-0">
+                  <div class="card-footer d-flex">
+                    <p class="font-weight-normal my-auto">Price: ₡12,990
+                    </p>
+                    <i class="material-icons position-relative ms-auto text-lg me-1 my-auto">electric_bolt</i>
+
+                    <i class="material-icons position-relative ms-auto text-lg me-1 my-auto">inventory</i>
+                    <p class="text-sm my-auto"> Stock: 10</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Navbar -->
+
+    </div>
+
+
+  </main>
+
+
+  <!--   Core JS Files   -->
+  <script src="./assets/js/core/popper.min.js"></script>
+  <script src="./assets/js/core/bootstrap.min.js"></script>
+  <script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="./assets/js/plugins/smooth-scrollbar.min.js"></script>
+
+
+  <!-- Github buttons -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/material-dashboard.min.js?v=3.0.4"></script>
+  <script src="./assets/js/jquery-3.6.0.min.js"></script>
+  <script src="./assets/js/owl.carousel.min.js"></script>
+
+  <script>
+    $('.featured-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+
+      dots: false,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
